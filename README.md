@@ -57,7 +57,7 @@ The skill only runs when you type it. Claude never starts it on its own.
 skills/review/
 ├── SKILL.md              # steps: collect, dispatch lenses, merge, write
 ├── lenses/               # one file per review lens, each run by a subagent
-├── guidelines/           # naming and Python rules the lenses fall back on
+├── guidelines/           # naming, Python and UI/UX rules the lenses fall back on
 └── voice.md              # how comments are worded, and how the verdict is chosen
 ```
 

@@ -1,6 +1,6 @@
 # Lens: product, UI and copy
 
-Judge the change as the product owner would, and as the person who uses it every day. The project's design system, product description, copy guide and glossary are the baseline.
+Judge the change as the product owner would, and as the person who uses it every day. The baseline is the project's design system, product description, copy guide and glossary, plus [`../guidelines/ui-ux.md`](../guidelines/ui-ux.md). Where they differ, the project's own rules win.
 
 Report every finding with:
 - `file:line`;
