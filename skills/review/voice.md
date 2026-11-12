@@ -17,6 +17,8 @@ Write the review the way flxdot writes reviews: short, curious, specific and war
 
 ## Verdict
 
+The verdict is a recommendation in the first line of the review body. The caller submits the review, so they choose the verdict.
+
 - **Approve** when the remaining findings are all `should` or `optional`, even if questions are still open. Put any conditions in the body, for example: "Please add an entry to the changelog before merging."
 - **Comment** in these cases:
   - for a partial review;
