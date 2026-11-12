@@ -83,9 +83,8 @@ mixes synonyms for the same action.
 | Remove | Take out of the current context; the object still exists | Delete |
 | Delete | Destroy the object permanently | Remove, Move to trash |
 | Move to trash | Soft delete that can be restored | Delete |
-| Edit | Allow changing values | Update |
-| Update | Submit the edits of an existing object in a form | Save |
-| Save | Persist changes; the view stays open | Apply, Done |
+| Edit | Allow changing values | Save |
+| Save | Persist the changes to an object, whether new or existing. Never Update, Submit or Confirm | Apply, Done |
 | Apply | Persist settings without closing the dialog | Save |
 | Cancel | Stop the action and close without saving | Close, Discard |
 | Close | Close a page, panel or window | Cancel |
