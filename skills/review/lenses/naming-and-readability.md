@@ -1,6 +1,8 @@
 # Lens: naming, readability and tests
 
-Code is read far more often than it is written. A reader should understand each line without stopping to unpack it. The project's own naming and style rules are the baseline; this lens adds the points those rules do not cover.
+Code is read far more often than it is written. A reader should understand each line without stopping to unpack it.
+
+The baseline is the project's own naming and style rules, plus [`../guidelines/naming.md`](../guidelines/naming.md) for every language and [`../guidelines/python.md`](../guidelines/python.md) for Python. Where they differ, the project's rules win. This lens adds the points those rules do not cover.
 
 Report every finding with:
 - `file:line`;

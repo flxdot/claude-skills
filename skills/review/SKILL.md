@@ -11,7 +11,7 @@ Review the diff of a pull request or a branch the way flxdot reviews code.
 1. **Collect the change.** Get the diff against its merge base: `gh pr diff <number>`, or `git diff <default-branch>...HEAD`. Also get the PR title and description and the linked ticket. Read the project's agent and contribution docs (`AGENTS.md`, `CLAUDE.md`, `CONTRIBUTING.md`, design and glossary files), because their rules and terms are the baseline every lens builds on. The step is done when you know:
    - which ticket or goal the change serves;
    - which areas it touches: backend, database and migrations, data pipelines, frontend, user-facing copy, translations, changelog or docs.
-2. **Dispatch the lenses.** Start one subagent per lens, all in parallel. Give each one the diff, the ticket, the paths of the project docs and the content of its lens file:
+2. **Dispatch the lenses.** Start one subagent per lens, all in parallel. Give each one the diff, the ticket, the paths of the project docs, the content of its lens file and the absolute paths of the [`guidelines/`](guidelines/) files that its lens names:
    - [`lenses/purpose-and-design.md`](lenses/purpose-and-design.md)
    - [`lenses/correctness.md`](lenses/correctness.md)
    - [`lenses/naming-and-readability.md`](lenses/naming-and-readability.md)
