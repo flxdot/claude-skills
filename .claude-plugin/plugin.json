@@ -1,0 +1,13 @@
+{
+  "name": "flxdot",
+  "version": "1.0.0",
+  "description": "Agent skills by flxdot, starting with a code review in flxdot's style.",
+  "author": {
+    "name": "flxdot",
+    "url": "https://github.com/flxdot"
+  },
+  "repository": "https://github.com/flxdot/claude-skills",
+  "license": "MIT",
+  "keywords": ["code-review", "review", "skills"],
+  "skills": ["./skills/review"]
+}
